@@ -15,7 +15,7 @@ package pkg_b;
 	endclass
 	typedef struct{
 		int data;
-		int	command;
+		int	[1:0]command;
 	} struct_b;
 	int vb=2;
 endpackage
